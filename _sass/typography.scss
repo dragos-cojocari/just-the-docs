@@ -20,7 +20,7 @@ h3,
 }
 
 h4 {
-  @include fs-4;
+  @include fs-5;
 }
 
 .text-delta {
@@ -35,12 +35,18 @@ h4 code {
   text-transform: none;
 }
 
-h5,
+h5 {
+  @include fs-4;
+}
+
 .text-epsilon {
   @include fs-3;
 }
 
-h6,
+h6 {
+  @include fs-3;
+}
+
 .text-zeta {
   @include fs-2;
 }
